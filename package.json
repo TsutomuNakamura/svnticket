@@ -1,0 +1,32 @@
+{
+  "name": "svnticket",
+  "version": "0.0.1",
+  "description": "Ticket(Permission) publisher for SVN Auth on Apache",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TsutomuNakamura/svnticket.git"
+  },
+  "keywords": [
+    "svn",
+    "subversion",
+    "AuthzSVNAccessFile",
+    "\"DAV",
+    "svn\""
+  ],
+  "author": "Tsutomu Nakamura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TsutomuNakamura/svnticket/issues"
+  },
+  "homepage": "https://github.com/TsutomuNakamura/svnticket#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "express": "^4.16.2",
+    "express-cluster": "0.0.5"
+  }
+}
