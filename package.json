@@ -23,10 +23,13 @@
     "url": "https://github.com/TsutomuNakamura/svnticket/issues"
   },
   "homepage": "https://github.com/TsutomuNakamura/svnticket#readme",
-  "dependencies": {},
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "express-cluster": "0.0.5",
+    "socket.io": "^2.0.4"
+  },
   "devDependencies": {
-    "ava": "^0.25.0",
-    "express": "^4.16.2",
-    "express-cluster": "0.0.5"
+    "ava": "^0.25.0"
   }
 }
