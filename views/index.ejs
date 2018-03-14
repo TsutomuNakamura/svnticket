@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<title>test</title>
+<body>
+
+<div id="configListRoot"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/ShowConfigList.js"></script>
+<script>
+var configList = new ShowConfigList();
+configList.connect().start();
+</script>
+</body>
+</html>
