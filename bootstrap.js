@@ -1,6 +1,6 @@
 const express = require('express')
-var cluster = require('cluster');
-var Server = require('./lib/Server');
+const cluster = require('cluster');
+const Server = require('./lib/Server');
 
 class BootStrap {
     constructor(numOfProcess = 1) {
@@ -16,7 +16,7 @@ class BootStrap {
     }
 
     bootAsMaster() {
-        for(var i = 0; i < this.numOfProcess; ++i) {
+        for(let i = 0; i < this.numOfProcess; ++i) {
             cluster.fork();
         }
     }
