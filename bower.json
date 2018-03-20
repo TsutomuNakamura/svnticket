@@ -1,0 +1,32 @@
+{
+  "name": "svnticket",
+  "description": "Ticket(Permission) publisher for SVN Auth on Apache",
+  "main": "bootstrap.js",
+  "authors": [
+    "Tsutomu Nakamura"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "svn",
+    "subversion",
+    "AuthzSVNAccessFile",
+    "\"DAV",
+    "svn\""
+  ],
+  "homepage": "https://github.com/TsutomuNakamura/svnticket",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "jquery": "1.12.4",
+    "react": "16.1.0"
+  },
+  "scripts": {
+    ""
+  }
+}
